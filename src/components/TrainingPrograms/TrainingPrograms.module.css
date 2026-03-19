@@ -1,0 +1,182 @@
+.trainingContainer {
+  background-color: rgba(37, 37, 37, 1);
+  padding-top: 40px;
+  padding-bottom: 24px;
+}
+
+.sectionTitle {
+  margin: 0 0 12px;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.mobile {
+  display: block;
+}
+
+.desktop {
+  display: none;
+}
+
+.card {
+  text-align: left;
+}
+
+.meta {
+  color: #ffffffd1;
+  gap: 16px;
+  margin: 0 0 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  display: grid;
+}
+
+.metaLine1 {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #c0a77f;
+}
+
+.text {
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #fff;
+}
+
+.media {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  width: 292px;
+  height: 222px;
+  margin: 0 auto;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  background: rgba(0, 0, 0, 0.25);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.arrow svg {
+  fill: rgba(255, 255, 255, 0.9);
+}
+
+.arrow:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.arrowLeft {
+  left: 10px;
+}
+
+.arrowRight {
+  right: 10px;
+}
+
+@media (min-width: 768px) {
+  .trainingContainer {
+    padding-top: 42px;
+    padding-bottom: 42px;
+  }
+
+  .sectionTitle {
+    margin: 0 0 20px;
+    font-size: 28px;
+  }
+
+  .meta {
+    padding: 0 110px;
+  }
+
+  .text {
+    margin: 0 0 24px;
+    line-height: 1.75;
+    padding: 0 110px;
+  }
+
+  .media {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+  .image {
+    /* width: 100%;
+    object-fit: cover; */
+    max-width: 484px;
+    border-radius: 20px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1179px) {
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 130px;
+  }
+
+  .trainingContainer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .sectionTitle {
+    margin: 0 0 46px;
+    font-size: 42px;
+    text-align: center;
+  }
+
+  .meta {
+    padding: 0 0;
+  }
+
+  .text {
+    margin: 0 0 36px;
+    line-height: 1.4;
+    padding: 0 0;
+  }
+
+  .media {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+  .image {
+    /* width: 100%;
+    object-fit: cover; */
+    max-width: 532px;
+    max-width: 361px;
+
+    border-radius: 20px;
+    margin: 0 auto;
+  }
+}

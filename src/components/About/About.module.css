@@ -1,0 +1,167 @@
+.aboutSection {
+  position: relative;
+  overflow: hidden;
+  /* padding: 40px 0; */
+}
+
+.aboutContainer {
+  background-color: rgba(37, 37, 37, 1);
+}
+
+.aboutCard {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  border-radius: 20px;
+}
+
+.aboutTitle {
+  margin: 0 0 12px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.aboutCoach {
+  margin: 0 0 16px;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.aboutText {
+  margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.aboutPhotoWrap {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.aboutBall {
+  display: none;
+}
+
+/* ================= TABLET ================= */
+
+@media (min-width: 768px) {
+  .aboutCard {
+    max-width: 768px;
+    padding: 42px 0;
+  }
+
+  .aboutTitle {
+    font-size: 28px;
+    margin: 0 0 20px;
+  }
+
+  .aboutCoach {
+    font-size: 20px;
+    max-width: 493px;
+    margin: 0 0 12px;
+  }
+
+  .aboutText {
+    margin: 0 0 24px;
+    font-size: 18px;
+    max-width: 620px;
+    line-height: 1.8;
+    color: rgba (255, 255, 255, 0.77);
+  }
+
+  .aboutPhoto {
+    max-width: 329px;
+    margin: 0 auto;
+    border-radius: 12px;
+  }
+}
+
+/* ================= DESKTOP ================= */
+
+@media (min-width: 1440px) {
+  .aboutContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 64px;
+    padding: 32px 100px 32px 200px;
+  }
+
+  .aboutCard {
+    flex: 0 0 620px;
+    /* padding-bottom: 380px; */
+  }
+
+  .aboutTitle {
+    font-size: 43px;
+    margin-bottom: 32px;
+  }
+
+  .aboutCoach {
+    font-size: 24px;
+    max-width: 610px;
+    line-height: 1.25;
+    margin: 0 0 12px;
+  }
+
+  .aboutText {
+    font-size: 20px;
+    max-width: 552px;
+    line-height: 1.5;
+    margin: 0 0 24px;
+  }
+
+  .aboutPhotoWrap {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .aboutPhoto {
+    max-width: 461px;
+    border-radius: 18px;
+  }
+
+  .aboutBall {
+    display: block;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    opacity: 0.06;
+    pointer-events: none;
+    z-index: 0;
+    fill: white;
+  }
+
+  .aboutContainer {
+    position: relative;
+    z-index: 1;
+  }
+
+  .aboutBallLeft {
+    width: 260px;
+    height: 260px;
+    left: -120px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .aboutBallRight {
+    width: 170px;
+    height: 170px;
+    right: -70px;
+    top: 40px;
+  }
+
+  .aboutBallBottom {
+    width: 220px;
+    height: 220px;
+    left: 35%;
+    bottom: -110px;
+  }
+}

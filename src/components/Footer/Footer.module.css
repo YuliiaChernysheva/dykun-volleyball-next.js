@@ -1,0 +1,158 @@
+.footerContainer {
+  background-color: rgba(37, 37, 37, 1);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 1px solid #c0a77f;
+}
+
+.copy {
+  margin: 0 0 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+.title {
+  margin: 0 0 12px;
+  max-width: 394px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #c0a77f;
+}
+
+.text {
+  margin: 0 0 22px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+.contactList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.contactItem {
+  display: flex;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #ffffff;
+  text-decoration: none;
+
+  transition: color 250ms ease;
+}
+
+.link:hover,
+.link:focus {
+  color: #f0d37a;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 28px 0 36px;
+  }
+
+  .container {
+    padding: 28px 32px 0;
+  }
+
+  .copy {
+    margin-bottom: 14px;
+    font-size: 18px;
+  }
+
+  .title {
+    margin-bottom: 14px;
+    max-width: 520px;
+    font-size: 30px;
+  }
+
+  .text {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .contactList {
+    flex-direction: row;
+    justify-content: center;
+    gap: 36px;
+    flex-wrap: wrap;
+  }
+
+  .link {
+    font-size: 20px;
+    gap: 10px;
+  }
+
+  .icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1440px) {
+  .footer {
+    padding: 32px 0 40px;
+  }
+
+  .container {
+    padding: 32px 80px 0;
+  }
+
+  .copy {
+    margin-bottom: 16px;
+    font-size: 20px;
+  }
+
+  .title {
+    margin-bottom: 16px;
+    max-width: 720px;
+    font-size: 36px;
+  }
+
+  .text {
+    margin-bottom: 24px;
+    font-size: 24px;
+  }
+
+  .contactList {
+    gap: 56px;
+  }
+
+  .link {
+    font-size: 24px;
+    gap: 12px;
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+}
