@@ -1,12 +1,12 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<symbol id="facebook" viewBox="0 0 32 32">
+<!-- <symbol id="facebook" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.3333" d="M22.667 2.667h-4c-1.768 0-3.464 0.702-4.714 1.953s-1.953 2.946-1.953 4.714v4h-4v5.333h4v10.667h5.333v-10.667h4l1.333-5.333h-5.333v-4c0-0.354 0.141-0.693 0.391-0.943s0.589-0.391 0.943-0.391h4v-5.333z"></path>
 </symbol>
 <symbol id="email" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.3333" d="M4 23.333v-14.667c0-0.736 0.597-1.333 1.333-1.333h21.333c0.736 0 1.333 0.597 1.333 1.333v14.667c0 0.736-0.597 1.333-1.333 1.333h-21.333c-0.736 0-1.333-0.597-1.333-1.333z"></path>
 <path stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.3333" d="M4 8l12 8 12-8"></path>
-</symbol>
+</symbol> -->
 <symbol id="arrow-right" viewBox="0 0 37 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="0.7619" d="M27.429 3.81l-12.19 12.19 12.19 12.19"></path>
 </symbol>
@@ -17,6 +17,13 @@
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.2" d="M2.4 16.299h25.712"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.2" d="M2.4 23.799h25.712"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.2" d="M2.4 8.8h25.712"></path>
+</symbol>
+<symbol id="facebook" viewBox="0 0 43 32">
+<path d="M41.143 3.429c0-0.631-0.512-1.143-1.143-1.143h-36.571c-0.631 0-1.143 0.512-1.143 1.143v25.143c0 0.631 0.512 1.143 1.143 1.143h36.571c0.631 0 1.143-0.512 1.143-1.143v-25.143zM43.429 28.571c0 1.893-1.535 3.429-3.429 3.429h-36.571c-1.894 0-3.429-1.535-3.429-3.429v-25.143c0-1.894 1.535-3.429 3.429-3.429h36.571c1.894 0 3.429 1.535 3.429 3.429v25.143z"></path>
+<path d="M42.92 3.237l-20.571 13.714c-0.384 0.256-0.884 0.256-1.268 0l-20.571-13.714 1.268-1.902 19.938 13.29 19.938-13.29 1.268 1.902z"></path>
+</symbol>
+<symbol id="email" viewBox="0 0 18 32">
+<path d="M10.667 8.381c0-0.606 0.241-1.187 0.67-1.616s1.010-0.67 1.616-0.67h3.81v-4.571h-3.81c-1.819 0-3.562 0.723-4.848 2.009s-2.009 3.030-2.009 4.848v4.571c0 0.421-0.341 0.762-0.762 0.762h-3.81v4.571h3.81c0.421 0 0.762 0.341 0.762 0.762v11.429h4.571v-11.429c0-0.421 0.341-0.762 0.762-0.762h3.976l1.143-4.571h-5.119c-0.421 0-0.762-0.341-0.762-0.762v-4.571zM12.19 12.19h5.333c0.235 0 0.457 0.108 0.601 0.293s0.195 0.426 0.139 0.653l-1.524 6.095c-0.085 0.339-0.39 0.577-0.74 0.577h-3.81v11.429c0 0.421-0.341 0.762-0.762 0.762h-6.095c-0.421 0-0.762-0.341-0.762-0.762v-11.429h-3.81c-0.421 0-0.762-0.341-0.762-0.762v-6.095c0-0.421 0.341-0.762 0.762-0.762h3.81v-3.81c0-2.223 0.884-4.354 2.455-5.926s3.703-2.455 5.926-2.455h4.571c0.421 0 0.762 0.341 0.762 0.762v6.095c0 0.421-0.341 0.762-0.762 0.762h-4.571c-0.202 0-0.396 0.080-0.539 0.223s-0.223 0.337-0.223 0.539v3.81z"></path>
 </symbol>
 </defs>
 </svg>

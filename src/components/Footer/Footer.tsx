@@ -12,11 +12,11 @@ export default function Footer() {
 
         <ul className={styles.contactList}>
           <li className={styles.contactItem}>
-            <a href="mailto:your@email.com" className={styles.link}>
+            <a href="mailto:dykun.volleyball@gmail.com" className={styles.link}>
               <svg className={styles.icon} aria-hidden="true">
                 <use href="/icon/symbol-defs.svg#email"></use>
               </svg>
-              <span>Email: your@email.com</span>
+              <span>Email: dykun.volleyball@gmail.com</span>
             </a>
           </li>
 

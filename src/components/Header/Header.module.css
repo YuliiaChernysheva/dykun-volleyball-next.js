@@ -7,6 +7,8 @@
   width: 100%;
   z-index: 100;
   height: 51px;
+
+  background-color: rgba(37, 37, 37, 1);
 }
 
 .headerContainer {
@@ -16,7 +18,7 @@
   align-items: center;
   justify-content: space-between;
   /* padding: 0 16px; */
-  background-color: rgba(37, 37, 37, 1);
+  background-color: rgba(35, 35, 36, 1);
 }
 
 .headerNav {
@@ -101,10 +103,15 @@
 
   .headerContainer {
     max-width: 1440px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
   }
 
   .headerNavList {
     gap: 28px;
+    display: flex;
+    align-items: center;
   }
 
   .headerNavLink {

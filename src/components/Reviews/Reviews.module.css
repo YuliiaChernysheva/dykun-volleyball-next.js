@@ -1,0 +1,148 @@
+.reviewsSection {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.title {
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* wrapper */
+.wrapper {
+  position: relative;
+}
+
+/* slider */
+.slider {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+
+  scroll-snap-type: x mandatory;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+/* card */
+.card {
+  flex: 0 0 auto;
+
+  border: 1px solid #252525;
+  border-radius: 18px;
+  width: 292px;
+  height: auto;
+
+  padding: 20px;
+
+  background: rgba(192, 167, 127, 0.1);
+
+  scroll-snap-align: start;
+
+  transition: transform 0.3s ease;
+}
+
+/* .card:hover {
+  transform: translateY(-5px);
+} */
+
+/* content */
+.stars {
+  margin-bottom: 14px;
+  font-size: 25px;
+  color: #fcea2b;
+  text-align: left;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.42857;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.line {
+  height: 1px;
+  background: #a8a8a8;
+  margin-bottom: 20px;
+}
+
+.author {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.11111;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* arrows (hidden on mobile) */
+.arrowLeft,
+.arrowRight {
+  display: none;
+}
+
+/* ===================== */
+/* 📲 TABLET */
+@media (min-width: 768px) {
+  .card {
+    min-width: calc((100% - 16px) / 2);
+  }
+}
+
+/* ===================== */
+/* 💻 DESKTOP */
+@media (min-width: 1440px) {
+  .slider {
+    overflow: hidden;
+    padding-left: 0;
+  }
+
+  .card {
+    min-width: calc((100% - 32px) / 3);
+  }
+
+  .arrowLeft,
+  .arrowRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 44px;
+    height: 44px;
+
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(6px);
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+
+    color: white;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+    z-index: 2;
+  }
+
+  .arrowLeft {
+    left: -20px;
+  }
+
+  .arrowRight {
+    right: -20px;
+  }
+
+  .arrowLeft:hover,
+  .arrowRight:hover {
+    transform: translateY(-50%) scale(1.1);
+    background: rgba(255, 255, 255, 0.2);
+  }
+}

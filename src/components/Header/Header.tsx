@@ -7,13 +7,13 @@ export default function Header() {
   return (
     <header className={css.headerSection}>
       <div className={`${css.headerContainer} container`}>
-        <nav className={css.headerNav}>
-          <Link href="/" className={css.headerLogoLink}>
-            <svg className={css.headerLogo}>
-              <use className={css.headerLogoIcon} href="/favicon.svg"></use>
-            </svg>
-          </Link>
+        <Link href="/" className={css.headerLogoLink}>
+          <svg className={css.headerLogo}>
+            <use className={css.headerLogoIcon} href="/favicon.svg"></use>
+          </svg>
+        </Link>
 
+        <nav className={css.headerNav}>
           <ul className={css.headerNavList}>
             <li className={css.headerNavItem}>
               <a className={css.headerNavLink} href="#about-section">
