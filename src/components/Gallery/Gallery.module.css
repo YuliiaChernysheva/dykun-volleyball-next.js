@@ -1,0 +1,52 @@
+.section {
+  padding: 40px 25px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+.track {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.slide {
+  flex: 0 0 100%;
+  padding: 0 8px;
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 20px;
+  /* width: 292px;
+  height: 172px; */
+}
+
+/* arrows */
+.arrow {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* desktop */
+@media (min-width: 1440px) {
+  .slide {
+    flex: 0 0 calc(100% / 3);
+  }
+}

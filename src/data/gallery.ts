@@ -1,0 +1,51 @@
+export const galleryImages = [
+  {
+    id: 1,
+    mob: "/img/gallery/mob/mob-one.jpg",
+    tab: "/img/gallery/tab/tab-one.jpg",
+    desk: "/img/gallery/desk/desk-one.jpg",
+    alt: "Volleyball training photo 1",
+  },
+  {
+    id: 2,
+    mob: "/img/gallery/mob/mob-two.jpg",
+    tab: "/img/gallery/tab/tab-two.jpg",
+    desk: "/img/gallery/desk/desk-two.jpg",
+    alt: "Volleyball training photo 2",
+  },
+  {
+    id: 3,
+    mob: "/img/gallery/mob/mob-three.jpg",
+    tab: "/img/gallery/tab/tab-three.jpg",
+    desk: "/img/gallery/desk/desk-three.jpg",
+    alt: "Volleyball training photo 3",
+  },
+  {
+    id: 4,
+    mob: "/img/gallery/mob/mob-four.jpg",
+    tab: "/img/gallery/tab/tab-four.jpg",
+    desk: "/img/gallery/desk/desk-four.jpg",
+    alt: "Volleyball training photo 4",
+  },
+  {
+    id: 5,
+    mob: "/img/gallery/mob/mob-five.jpg",
+    tab: "/img/gallery/tab/tab-five.jpg",
+    desk: "/img/gallery/desk/desk-five.jpg",
+    alt: "Volleyball training photo 5",
+  },
+  {
+    id: 6,
+    mob: "/img/gallery/mob/mob-six.jpg",
+    tab: "/img/gallery/tab/tab-six.jpg",
+    desk: "/img/gallery/desk/desk-six.jpg",
+    alt: "Volleyball training photo 6",
+  },
+  {
+    id: 7,
+    mob: "/img/gallery/mob/mob-seven.jpg",
+    tab: "/img/gallery/tab/tab-seven.jpg",
+    desk: "/img/gallery/desk/desk-seven.jpg",
+    alt: "Volleyball training photo 7",
+  },
+];
